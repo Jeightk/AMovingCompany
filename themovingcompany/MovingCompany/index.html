@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf=8">
+        <title>Place holder</title>
+        <meta name="description" content="A Moving Company">
+        <meta name="robots" content="index,follow">
+        <!-- Sets mobile to not scale down -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        <link rel="icon" href="trashcan.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+</html>
+
+<body>
+    
+    <div class="mobileBody"></div>
+
+    <nav class="nav",id="home">
+        <div class="head-separator1"></div>
+        <div class="titleNbuttons">
+            <h1 class="mp-title">| A Moving Company |</h>
+            <!-- <div class="cardinalHeader">
+                <img src="images/cardinal.png">
+            </div> -->
+            <div class="card"></div>
+            
+            <a class="">Currently Open</a>
+            
+            <span class="phone-block">
+                <img src="images/phone.png" style="width:25px;height:25px;">
+                <span class="phoneNumberDisplay">502-780-2315</span>
+            </span>
+            
+            
+            <div class="navi",id="navi">
+                <button onclick="scrollToHome()" type = "button" id="homebutton" class="homebtn">Home</button>
+                <button onclick="scrollToAbout()" type = "button" id="about" class="aboutbtn">About</button>
+                <button onclick="scrollToReview()" type = "button" id="reviews" class="reviewsbtn">Reviews</button>
+                <button onclick="scrollToContact()" type = "button" id="contact" class="contactbtn">Contact</button>
+                    
+                    <!-- <button type = "button" id="order" class="orderbtn">Order</button> -->
+            </div>
+            
+        </div>
+        
+        <div class="head-separator2"></div>
+
+    </nav>
+
+    
+    <div class="mainpg" id="mainPageHeader">
+        
+        <h1 class="mod1title">In Louisville, KY.</h1>
+        <div class="mod1img"></div>
+        
+    </div>
+    
+
+    <div class="topAboutPage">
+        <div class="about-separator1" id="aboutseparater"></div>
+
+        <h1 class="aboutTitle">|        About        |</h1>
+        <div class="about-separator2"></div>
+    </div>
+    <div class="aboutPage">
+
+
+    </div>
+
+
+    <div class="revStart">
+        <div class="rev-separator1" id="rev1"></div>
+
+        <h1 class="revTitle">|        Reviews        |</h1>
+        <div class="rev-separator2"></div>
+    </div>
+    
+    <div class="reviewspage">
+        <div class="rev-section">
+            <div class="review1">
+                <div class="namewithRating">
+                    <h1 class="reviewName">Zach Hill</h1>
+                    <div class="starRating"></div>
+                </div>
+                
+                <p class="reviewComment">Offered to do more than asked! Very easy to talk to, and did the job quickly!</p>
+
+            </div>
+            <div class="review2">
+
+                <div class="namewithRating">
+                    <h1 class="reviewName">Tanner Johnson</h1>
+                    <div class="starRating"></div>
+                </div>
+                
+                <p class="reviewComment">We had a wonderful experience with the moving team that assisted us. They were able to complete the job in less time than we had anticipated, 
+                    and they handled our belongings with the utmost care, ensuring that everything remained in its original condition. 
+                    I highly recommend their services to anyone who is planning to move in the area.</p>
+
+            </div>
+
+            <div class="review3">
+                <div class="namewithRating">
+                    <h1 class="reviewName">Anthony Wood</h1>
+                    <div class="starRating"></div>
+                </div>
+                
+                <p class="reviewComment">They took the time to ensure everything was labeled and packed properly. We were so grateful that they took them with no fuss. Both were friendly and very professional, 
+                    and I couldn't have asked for better helpers on one of the most stressful days.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="topContactPage">
+        <div class="contact-separator1" id="contactseparater"></div>
+
+        <h1 class="contactTitle">|        Contact        |</h1>
+        <div class="contact-separator2"></div>
+    </div>
+
+    <div class="contactPage">
+        <div class="formSection">
+            <form action="https://formsubmit.co/jakedmcintosh@gmail.com" method="POST">
+                <textarea type="text" name="message" class="contactbox" placeholder="Write your message here." rows="10" cols="70" required></textarea>
+                <!-- ​<textarea name="message" class="contactbox" rows="10" cols="70" required></textarea> -->
+                <!-- <input type="text" name="message" class="contactbox" placeholder="Write your message here" required> -->
+                <input type="email" name="email" class="emailbox" placeholder="Email Address" required>
+                <input type="hidden" name="_next" value="https://jakethemcintosh.com">
+                <button type="submit" class="contactsubmitbutton">Send</button>
+           </form>
+        </div>
+        
+
+    </div>
+
+    <script src="plugin.js"></script>
+
+    <!-- <script src="/plugin.js"></script> -->
+
+
+
+</body>
